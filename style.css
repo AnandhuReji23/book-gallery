@@ -1,0 +1,235 @@
+
+body{
+background-image: url('https://wallpaperaccess.com/full/124383.jpg');
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;
+
+}
+  
+.pre{
+    background-color:rgb(255, 255, 255);
+    height: 20px;
+   
+    padding: 25px;
+    position: sticky; top: 0px;
+    cursor: pointer;
+   scroll-behavior: smooth;
+}
+
+
+ul{
+    list-style-type: none ;
+   
+  
+}
+.ui :hover{
+    text-decoration: underline;
+}
+
+    
+
+
+li{
+    float: left;
+    
+    margin-left: 20px;
+    background-color: rgba(143, 25, 25, 0.005);
+
+    
+}
+#menu{
+    width: 4%;
+}
+#cart{
+    
+    float: right;
+    width: 5%;
+   
+    
+    
+   
+}
+
+#clr1{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    overflow: hidden;
+    padding: 30px;
+    
+}
+
+#title{
+    background-color: rgba(245, 245, 220, 0.464);
+    text-align: center;
+    padding: 10px;
+}
+#po1{
+    background-color: rgba(196, 232, 255, 0.551);
+    padding: 40px;
+    
+
+}
+#search{
+    background-color: rgb(246, 243, 239);
+    height: 50px;
+    padding: 90px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+#adj{
+    width: 300px;
+    height: 15px;
+    
+    background-color: rgba(20, 133, 231, 0.356);
+    border-color: rgba(20, 133, 231, 0.356);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-blend-mode: hard-light;  
+
+}
+#adj2{
+    width: 100px;
+    height: 35px;
+    border-color: rgba(114, 85, 112, 0.368);
+    background-color: rgba(40, 47, 197, 0.57);
+    color: white;
+    border-radius: 40pc;
+    cursor: pointer;
+    transition-duration:opacity 0.15s;
+}
+#adj2:hover{
+    background-color: rgb(11, 95, 169);
+    opacity: .8;
+}
+#adj:active{
+    opacity: 0.5s;
+}
+#clr2{
+    /* background-color: rgb(165, 42, 42, 0.449); */
+    height: 550px;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 20px;
+    
+}
+#title1{
+    background-color: rgba(245, 245, 220, 0.464);
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.bookz{
+    height: 400px;
+    width:210px;
+    background-color:rgba(245, 231, 239, 0.773);
+    margin: 20px;
+    float: left;
+    border-top-right-radius: 80px;
+    border: 4px rgb(214, 138, 23) ridge;
+    margin-left: 80px;
+    padding: 10px;
+    align-content: center;
+    
+
+}
+
+
+
+
+#bm4{
+    width: 190px;
+    height: 191px;
+
+}
+#bm2{
+    height: 191px;
+}
+#ibm3{
+    
+    height: 191px;
+    
+    
+}
+.for{
+    padding: 40px;
+    align-items: center;
+}
+
+
+img{
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 40px
+}
+.mm1{
+    border: 5px black ridge;
+    text-align: center;
+ 
+    
+}
+li:hover{
+    color: rgba(230, 15, 15, 0.385);
+    text-decoration: underline;
+    
+}
+.abu{
+    background-color: rgba(255, 228, 196, 0.222);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+#abo{
+    background-color: rgba(255, 255, 255, 0.438);
+    padding: 1px;
+}
+.log1{
+    width: 55px;
+}
+.log2{
+    width: 50px;
+}
+.log3{
+    width: 150px;
+}
+.bk{
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+h1{
+    font-family: 'Nanum Myeongjo', serif;
+}
+p{
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    
+   
+}
+.go{
+   
+    text-align: center;
+
+    
+ 
+}
+
+.rps{
+    font-size: small;
+    
+}
+.rps:hover{
+    color: rgb(14, 14, 239);
+    text-decoration: underline;
+}
+.feeds{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+}
