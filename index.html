@@ -12,13 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Kalam:wght@300&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
-  
-    <!--FONT AWESOME-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+     <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
 <body>
 
     <div class="pre">
@@ -32,9 +30,9 @@
          
 
           <div id="cart">
-           
+        
              <i class="fa-sharp fa-solid fa-cart-shopping"></i>
-            
+          
             </div>
 
         </ul>
@@ -44,32 +42,34 @@
    <div id="clr1">
 
         <h1 id="title">BOOK GALLERY</h1>
-
+     
         <p id="po1"> "Book Gallery  is known for publishing a wide range of books that engage, enlighten, and entertain. Our list features nonfiction titles from an impressive roster of bestselling authors, highly sought after personalities, tastemakers and influencers, and established thought leaders that deliver the best in memoir, biography, pop culture, humor, self-improvement, and cultural commentary. Our formidable fiction list is made up of some of the industry’s biggest, genre-defining franchises, page-turning thrillers, and deeply heartfelt novels. Together, our targeted publishing program delivers a curated collection of books that truly resonate with readers."</p>
-    
+  
     </div>
     
-
-    
+   
+      
         <div id="search">
 
-            <form action="https://books.google.co.in/books?uid=114095034287558880063&as_coll=2&hl=en&view_type=grid/search"method="get" id="fl">
-                
-                <input type="text" placeholder="Search Books" name="sr" id="adj">
-                
-                <button type="Search"  id="adj2">search</button>
-            
-            </form>
+            <form action="https://www.google.com/search" method="get"id="fl">
+                <label for="search-input"></label>
+                <input type="text" id="search-input"class="adjst"  placeholder="Enter book name" name="q">
+                <input type="hidden" name="tbm"value="bks">
+                <input type="submit" value="Search"id="adj2">
+              </form>
 
         </div>
         
        
     <hr>
+   <div class="bgBack">
+
+   
 
    <div id="clr2">
-     <!-- parent div -->
+     <!-- Arrivals start -->
 
-     <h1 style="text-align: center;" id="title1" >NEW ARRIVEL</h1>
+     <h1 style="text-align: center;" id="title1" >NEW ARRIVALS</h1>
 
      <div id="im">
         
@@ -124,54 +124,56 @@
              <p class="rps">Read NOW</p>
              <a href="https://www.google.co.in/books/edition/Brief_Answers_to_the_Big_Questions/iKdaDwAAQBAJ?hl=en&gbpv=0"><div > <button type=""  id="adj2">GO</button>
              </div></a>
-            
-             
             </div>
          
         </div>
-    </div> 
+    </div>
     <hr>
+    <!-- feedback -->
     <div class="abu">
         <h1 id="abo">
             About US
-        </h1>
-        
+        </h1> 
     </div>
+
     <div class="feeds">
         <div class="feedback">
 
             <div class="feed">
+                
                 <form action="">
                     <label for="">NAME</label>
-                    <input type="text">
+                    <input type="text" placeholder="Enter your name" class="box">
                     <BR></BR>
                     <label for="">EMAIL</label>
-                    <input type="text" placeholder="egabc@gmail.com">
+                    <input type="text" placeholder="eg@gmail.com" class="box">
                     <BR></BR>
                     <label for="">QUERY</label>
-                    <textarea name="" id="" cols="20" rows="5"></textarea><br><br>
+                    <textarea name="" id="" cols="20" placeholder="" rows="5" class="box1"></textarea><br><br>
                     <BR></BR>
-                    <BUtton class="button-33">SEND</BUtton>
+                    <BUtton class="button-33">Subscribe</BUtton>
                     <br><br>
                 </form>
             </div>
         </div>
-
-
     </div>
-
+</div>
+<!-- footer starts -->
+ <div>
     <footer class="fcs">
-        <div class="footer">
-        <div class="row" id="foot1">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-youtube"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        </div>
+         <div class="footer">
+             <div class="row" id="foot1">
+                <h6>
+                     <a href="#"><i class="fa fa-facebook"></i></a>
+                     <a href="#"><i class="fa fa-instagram"></i></a>
+                     <a href="#"><i class="fa fa-youtube"></i></a>
+                     <a href="#"><i class="fa fa-twitter"></i></a>
+                    </h6>
+                </div>
         
         <div class="row" id="foot2">
         <ul>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#">Our Services</a></li>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Terms & Conditions</a></li>
@@ -179,11 +181,13 @@
         </ul>
         </div>
         
-        <div class="row">
-        Copyright © 2023 Inferno - All rights reserved ||BookGallery
+        <div class="row" style="float: right; color: rgba(0, 0, 0, 0.259);">
+        Copyright © 2023 -All rights reserved ||BookGallery
         </div>
+         
         </div>
-        </footer>   
-   
+     </footer>    
+ </div> 
+<!-- footer ends -->
 </body>
 </html>
